@@ -2,6 +2,7 @@
 
 import Navbar from "@/components/tvk/Navbar";
 import HeroSection from "@/components/tvk/HeroSection";
+import WhistleSection from "@/components/tvk/WhistleSection";
 import AboutSection from "@/components/tvk/AboutSection";
 import PromisesSection from "@/components/tvk/PromisesSection";
 import TimelineSection from "@/components/tvk/TimelineSection";
@@ -18,6 +19,7 @@ export default function TVKHomePage() {
     <main>
       <Navbar />
       <HeroSection />
+      <WhistleSection />
       <AboutSection />
       <PromisesSection />
       <TimelineSection />
