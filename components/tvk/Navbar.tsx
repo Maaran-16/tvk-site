@@ -44,8 +44,8 @@ export default function Navbar() {
           className="flex items-center gap-3 group"
           aria-label="TVK Home"
         >
-          <div className="w-21 h-21 rounded-full bg-primary flex items-center justify-center border-2 border-secondary shadow-md group-hover:scale-110 transition-transform">
-        <img src="./images/site_logo.jpeg" alt="TVK Logo" className="w-20 h-20 rounded-full" />
+          <div className="w-18 h-18 rounded-full bg-primary flex items-center justify-center border-2 border-secondary shadow-md group-hover:scale-110 transition-transform">
+        <img src="./images/site_logo.jpeg" alt="TVK Logo" className="w-17 h-17 rounded-full" />
           </div>
           <div className="hidden sm:block">
             <p className="text-secondary font-bold text-base leading-none">தமிழக வெற்றி கழகம்</p>
@@ -61,7 +61,7 @@ export default function Navbar() {
                 onClick={() => handleNav(link.href)}
                 className="px-3 py-2 rounded-md text-secondary hover:text-secondary hover:bg-primary/80 transition-colors text-sm font-medium"
               >
-                <span className="block text-xs leading-none">{link.labelTa}</span>
+                <span className="block text-xs leading-none mb-2">{link.labelTa}</span>
                 <span className="block text-[10px] leading-none opacity-70">{link.labelEn}</span>
               </button>
             </li>

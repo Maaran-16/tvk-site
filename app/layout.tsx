@@ -1,18 +1,18 @@
 import type { Metadata } from 'next'
-import { Geist_Mono, Noto_Sans, Tiro_Tamil } from 'next/font/google'
+import { Geist_Mono, Noto_Sans_Tamil, Tiro_Tamil } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const _geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' });
 
-const notoSans = Noto_Sans({
-  subsets: ['latin', 'tamil'],
+const notoSans = Noto_Sans_Tamil({
+  subsets: ['tamil'],
   weight: ['400', '600', '700', '800', '900'],
   variable: '--font-noto-sans',
 });
 
 const tiroTamil = Tiro_Tamil({
-  subsets: ['latin', 'tamil'],
+  subsets: ['tamil'],
   weight: '400',
   variable: '--font-tiro',
 });
@@ -20,9 +20,12 @@ const tiroTamil = Tiro_Tamil({
 export const metadata: Metadata = {
   title: 'TVK - Tamizhaga Vetri Kazhagam | வாக்குறுதி',
   description: 'Tamizhaga Vetri Kazhagam (TVK) official election promises and manifesto.',
-  generator: 'v0.app',
+  generator: 'Maaran',
   icons: {
     icon: [
+      {
+        url: '/favicon.ico',
+      },
       {
         url: '/icon-light-32x32.png',
         media: '(prefers-color-scheme: light)',

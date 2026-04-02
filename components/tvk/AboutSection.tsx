@@ -26,7 +26,7 @@ export default function AboutSection() {
               style={{ border: "4px solid #E11D48" }}
             >
               <Image
-                src="/images/tvk-leader.jpg"
+                src="/images/tvk-leader.png"
                 alt="TVK Party Leader"
                 fill
                 className="object-cover object-top"

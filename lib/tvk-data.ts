@@ -100,7 +100,7 @@ export const timeline = [
 ];
 
 export const galleryImages = [
-  { src: "/images/campaign-rally.jpg", altTa: "பிரம்மாண்ட பொதுக்கூட்டம்", altEn: "Grand public rally" },
+  { src: "/images/campaign-rally.jpeg", altTa: "பிரம்மாண்ட பொதுக்கூட்டம்", altEn: "Grand public rally" },
   { src: "/images/campaign-village.jpg", altTa: "விவசாயிகளுடன் கலந்தாய்வு", altEn: "Meeting farmers" },
   { src: "/images/campaign-youth.jpg", altTa: "இளைஞர் இயக்கம்", altEn: "Youth movement" },
 ];
