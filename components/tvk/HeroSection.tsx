@@ -82,10 +82,10 @@ export default function HeroSection() {
           <div className="mb-12">
             <p className="text-white text-xl md:text-[26px] font-extrabold text-balance leading-tight drop-shadow-lg"
               style={{ textShadow: "0 4px 20px rgba(0,0,0,0.4)" }}>
-              மக்களின் குரல் — மாற்றத்தின் சக்தி
+              பிறப்பொக்கும் எல்லா உயிர்க்கும்
             </p>
             <p className="text-secondary text-xl md:text-2xl font-bold mt-3 opacity-95">
-              Voice of the People — Power of Change
+              Equality by Birth — All are Born Equal
             </p>
           </div>
 
