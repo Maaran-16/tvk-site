@@ -131,7 +131,7 @@ export const promises = [
   },
   {
     id: 17,
-    icon: "🏠",
+    icon: "🏫",
     titleTa: "காமராஜர் உறைவிடப் பள்ளிகள்",
     titleEn: "Kamarajar Schools",
     descTa: "காமராஜர் பெயரில் 100 சிறப்பு உறைவிடப் பள்ளிகள் மாநிலம் முழுவதும் அமைக்கப்படும்.",
@@ -139,10 +139,10 @@ export const promises = [
   },
   {
     id: 18,
-    icon: "💻",
-    titleTa: "டிஜிட்டல் படைப்பாளிகள்",
-    titleEn: "Digital Creators",
-    descTa: "1.5 லட்சம் டிஜிட்டல் படைப்பாளர்களுக்கு தொழில் தொடங்க நிதியுதவி.",
+    icon: "💰",
+    titleTa: "தொழில்முனைவோர் கடன்",
+    titleEn: "Entrepreneurship Loans",
+    descTa: "புதிய தொழில்முனைவோருக்கு ₹25 லட்சம் வரை வட்டியில்லா கடன் வழங்கப்படும்.",
     color: "yellow",
   },
   {
@@ -166,7 +166,7 @@ export const promises = [
 export const highlights = [
   { titleTa: "சமூக நீதி", titleEn: "Social Justice", icon: "⚖️", desc: "அனைவருக்கும் சமமான வாய்ப்பு மற்றும் மதச்சார்பற்ற சமூக நீதி." },
   { titleTa: "மாநில சுயாட்சி", titleEn: "State Autonomy", icon: "🏛️", desc: "தமிழகத்தின் உரிமைகளை மீட்டெடுத்து, மாநில சுயாட்சியை உறுதி செய்தல்." },
-  { titleTa: "மொழி உரிமைகள்", titleEn: "Language Rights", icon: "🗣️", desc: "இருமொழி கொள்கை மற்றும் தமிழ் மொழியின் மேன்மையை பாதுகாத்தல்." },
+  { titleTa: "பொருளாதார புரட்சி", titleEn: "Economic Revolution", icon: "📈", desc: "2036-க்குள் தமிழகத்தை 1.5 டிரில்லியன் டாலர் பொருளாதாரமாக மாற்றுதல்." },
   { titleTa: "ஊழல் ஒழிப்பு", titleEn: "Anti-Corruption", icon: "🛡️", desc: "வெளிப்படையான நிர்வாகம் மற்றும் ஊழலற்ற நேர்மையான அரசியல்." },
 ];
 

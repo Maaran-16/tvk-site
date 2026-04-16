@@ -57,8 +57,7 @@ export default function AboutSection() {
               <span className="block text-lg font-medium text-muted-foreground mt-1">Our Vision & Mission</span>
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-4 text-base">
-              தமிழக வெற்றி கழகம் (TVK) — மக்களின் நம்பிக்கையில் உருவான இயக்கம். நாங்கள் ஊழல் இல்லாத,
-              நேர்மையான, வளர்ச்சி மிகுந்த தமிழகத்தை கட்டியெழுப்ப உறுதி பூண்டுள்ளோம்.
+              தமிழக வெற்றி கழகம் (TVK) — மக்களின் நம்பிக்கையில் உருவான இயக்கம். நாங்கள் ஊழல் இல்லாத, 2036-க்குள் தமிழகத்தை 1.5 டிரில்லியன் டாலர் பொருளாதாரமாக மாற்றும் தொலைநோக்கு பார்வையுடன் செயல்படுகிறோம்.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8 text-sm">
               Tamizhaga Vetri Kazhagam is a movement born from the trust of the people — committed to building a Tamil Nadu

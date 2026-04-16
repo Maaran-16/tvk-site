@@ -59,9 +59,14 @@ export default function HeroSection() {
         {/* Right: Content */}
         <div className="flex-1 text-center lg:text-left order-1 lg:order-2">
           {/* Party badge */}
-          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/30 backdrop-blur-sm rounded-full px-5 py-2 mb-8 animate-fade-in">
-            <span className="w-2 h-2 rounded-full bg-secondary animate-pulse" />
-            <span className="text-white/90 text-sm font-medium tracking-wide">2026 தேர்தல் வாக்குறுதி • Election Manifesto</span>
+          <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mb-8 animate-fade-in">
+            <div className="inline-flex items-center gap-2 bg-white/10 border border-white/30 backdrop-blur-sm rounded-full px-5 py-2">
+              <span className="w-2 h-2 rounded-full bg-secondary animate-pulse" />
+              <span className="text-white/90 text-sm font-medium tracking-wide">2026 தேர்தல் வாக்குறுதி • Election Manifesto</span>
+            </div>
+            <div className="inline-flex items-center gap-2 bg-secondary/20 border border-secondary/40 backdrop-blur-sm rounded-full px-5 py-2">
+              <span className="text-secondary text-sm font-black tracking-widest uppercase">Vision 2036: $1.5 Trillion Economy</span>
+            </div>
           </div>
 
           {/* Party name */}
