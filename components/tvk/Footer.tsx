@@ -40,7 +40,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 rounded-full flex items-center justify-center border-2 font-extrabold text-sm"
                 style={{ background: "#E11D48", borderColor: "#FACC15", color: "#fff" }}>
-                TVK
+                <img src="/images/site_logo.jpeg" alt="TVK Logo" className="w-full h-full object-cover rounded-full" />
               </div>
               <div>
                 <p className="font-extrabold text-base" style={{ color: "#FACC15" }}>தமிழக வெற்றி கழகம்</p>
